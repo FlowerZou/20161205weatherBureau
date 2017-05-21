@@ -1,0 +1,317 @@
+/****************1——实景天气*********/
+.sendW{width: 95%;height: 2.2rem;background: #11ADE5;text-align: center;line-height:2.2rem;border-radius: 0.5rem;margin: 1rem auto;}
+.sendW a{color:#fff;font-size: 1rem;}
+.gray{background: #F2F2F2;padding-bottom:1rem;}
+.addrcho{padding: 0 2%;}
+.input1{width: 24%;height: 2rem;float: left;background: #fff;border-radius: 0.2rem;line-height:2rem;margin-right:1%;color: #565656;font-size: 0.7rem;}
+.input1 input{border: none;outline: none;width: 100%;height: 100%;color: #656565;background: url(../images/down.png) no-repeat 95%;
+   font-size: 0.7rem;background-size: 20%;padding: 0 5%;}
+.input1 .sele{position: relative;height: 100%;}
+.input1 .sel-list{background: #fff;position: absolute; width: 101%; top: 28px; left: -1px;border-top: none;display: none;}
+.input1 .sel-list li{height: 1.5rem;line-height: 1.5rem;cursor: pointer;color: #656766;font-size: 0.7rem;padding-left: 0.5rem;}
+.input1 .sel-list li:hover{color: #fff;background: #008fe7;}
+.search{float: left;padding-left:10%;text-align: center;}
+.search span{height: 100%;display: inline-block;vertical-align: middle;}
+.search img{width: 43%;vertical-align: middle;}
+/*内容*/
+.weathercont li{border-top: 0.1rem solid #D9D9D9;padding: 2%;}
+.weathercont .cont_L{float: left;width: 18%;}
+.weathercont .cont_L img{width: 80%;}
+.weathercont .cont_R{float:left;width: 78%;}
+.weathercont .cont_R h3{color: #556D8B;font-size: 1rem;padding-bottom:2%;}
+.weathercont .cont_R .info p{font-size: 0.8rem;color: #999999;line-height:1.3rem;}
+.weathercont .cont_R .info .time{float: left;}
+.weathercont .cont_R .info .addr{background: url("../images/addr.fw.png") no-repeat left 0.1rem;background-size: 9%;padding-left: 6%; height: 1.3rem; display: inline-block; margin-left: 0.5rem;width: 54%;}
+.weathercont .cont_R .intro{font-size: 0.9rem;color: #000;margin-top:2%;background: #F7F7F7;padding: 3%;}
+.weathercont .cont_R .intro b{color: #4F7DAF;}
+.weathercont .cont_R .operate{color: #656565;font-size: 0.9rem;padding-top: 3%;}
+.weathercont .cont_R .operate span{padding-left: 8%;}
+.weathercont .cont_R .operate .comment{background: url("../images/comment.fw.png") no-repeat left;background-size: 35%; float: left;}
+.weathercont .cont_R .operate .zan{background: url("../images/zan.fw.png") no-repeat left;float: left;margin-left: 25%;background-size: 45%;}
+.weathercont .cont_R .operate .show{background: url("../images/show.fw.png") no-repeat left;float: right;background-size: 35%;}
+.weathercont .cont_R .contpic{margin-top: 2%;font-size: 0;-webkit-text-size-adjust: none;}
+.weathercont .cont_R .contpic a{display:inline-block;width: 33%;text-align: center;}
+.weathercont .cont_R .contpic a img{width: 90%;}
+
+/****************2— 天气类型*********/
+.weatherType{padding: 0 5%;}
+.weatherType table{border-collapse: collapse;width: 100%;}
+.weatherType td{font-size: 0.9rem;width: 50%;border-bottom: 0.1rem solid #CECECE;height: 4rem;padding-left: 6%;}
+.weatherType td a{color: #333;}
+.weatherType td p{display: inline-block; height:65%;width: 25%;}
+.weatherType td p span{display: inline-block;height: 100%;vertical-align: middle;}
+.weatherType td:first-child{border-right:0.1rem solid #CECECE;}
+.weatherType td img{width: 90%;vertical-align: middle;}
+
+/****************3— 天气类型*********/
+.graygroup{background: #F2F2F2;padding: 1rem 0;}
+.groupSearch_btn{width: 100%;height: 2rem;text-align: center;background: #fff;line-height: 2rem;}
+.groupSearch_btn a{background: url("../images/groupsearch.png") no-repeat left;padding-left: 5%;display: inline-block;height: 2rem;width: 5rem;background-size: 25%;color: #737373;}
+.groupmain{padding: 0 5%;}
+.groupmain li{border-bottom: 0.1rem solid #D3D3D3;font-size: 1rem;padding: 3% 0;}
+.groupmain li span{display: inline-block;height: 100%;vertical-align: middle;}
+.groupmain li img{width: 16%;vertical-align: middle;}
+.groupmain li p{display: inline-block;vertical-align: middle;color: #000;}
+.groupnum{background: #F2F2F2;text-align: center;font-size: 1rem;color: #606060;}
+.groupnum p{padding: 1.5rem 0;}
+.groupnum a{display: block;width: 95%;margin: 0 auto;height: 2rem;background: #11ADE5;color: #fff;line-height:2rem;border-radius: 0.5rem;}
+
+/*******************4——发布天气*************************/
+.publishweather01{height: 10rem;}
+.publishweather01 .textarea{padding: 2%;}
+.publishweather01 .textarea .tip{color: #999999;font-size: 1rem;}
+.publishweather01 .textarea .tip span{float: right;font-size: 0.8rem;}
+.publishweather01 .add{float: left;margin-right:2%;width: 30%;height: 5rem;background: #F1F1F1;text-align: center;margin-top: 10%;padding-top: 3%;}
+.publishweather01 .add img{width: 30%;height: 45%;}
+.publishweather01 .add span{display: block;font-size: 1rem;color: #D1D1D1;}
+.publishweather02{background: #F2F2F2;border-top: 0.1rem solid #DADADA;padding-top: 2rem;min-height: 29rem;}
+.publishweather02 .publshwrap{background: #fff;}
+.publishweather02 .publshwrap li{font-size: 1rem;line-height:3.5rem;border-top:0.1rem solid #DADADA;}
+.publishweather02 .publshwrap li:last-child{border-bottom:0.1rem solid #DADADA;}
+.publishweather02 .publshwrap .icon01{background: url("../images/weather.fw.png") no-repeat left;background-size: 20%;}
+.publishweather02 .publshwrap .icon02{background: url("../images/icon02.fw.png") no-repeat left;background-size: 20%;}
+.publishweather02 .publshwrap .icon03{background: url("../images/icon03.fw.png") no-repeat left;background-size: 20%;}
+.publishweather02 .publshwrap .icon05{background: url("../images/icon05.fw.png") no-repeat left;background-size: 20%;}
+
+.publishweather02 .publshwrap li span{color:#1B1B1B;padding-left: 10%;height: 100%;width: 40%;display: inline-block;}
+.publishweather02 .publshwrap li a{color: #696969;float: right;}
+.publishweather02 .publshwrap li .location{color: #F26D5F;background: url("../images/icon04.fw.png") no-repeat center 25%;background-size: 50%;line-height: normal;padding-top: 8%;}
+.copyright{float: right;margin: 0.6rem 2%;font-size: 0.9rem;color: #606060;border-bottom: 0.1rem solid;}
+.publishweather02 .check{width: 95%;height: 2.2rem;background: #fff;text-align: center;line-height:2.2rem;border-radius: 0.5rem;margin: 1rem auto 4rem;}
+.publishweather02 .check a{color:#11ADE5;font-size: 1rem;}
+.mui-backdrop{ position: fixed;z-index: 998; top: 0; right: 0; bottom: 0; left: 0;  background-color: rgba(0,0,0,.3)}
+
+/*******************5——版权申明*************************/
+.copyright_main{padding: 3%;}
+.copyright_main h1{font-size: 1rem;padding-bottom:2%;}
+.copyright_main p{font-size: 0.9rem;line-height:1.7;text-indent: 1.6rem}
+
+/*******************6_发布公告*************************/
+.publishweather02 .publshwrap li .remove{float: left;}
+#vamiddle{display: inline-block;height: 100%;vertical-align: middle;width: 0;padding-left: 0;}
+.publishweather02 .publshwrap li .remove img{width: 35%;vertical-align: middle;}
+.secul{margin-top: 0;}
+.publishweather02 .publshwrap .padl{padding: 0 2%;}
+
+/******************7—现金积分*************************/
+.jfnav{ text-align: center;font-size: 1rem;line-height:3rem;width: 100%;height: 3rem;border-bottom:0.1rem solid #999999;}
+.jfnav .left{float: left;width: 50%;}
+.jfnav .left01{background: url("../images/borderb.fw.png") no-repeat bottom;background-size: 60%;color: #000;}
+.jfnav .left b{float: right;height: 2.6rem;margin-top: 0.2rem;border-right: 0.1rem solid #999999;}
+.jfnav  span{display: inline-block;height: 100%;width: 60%;}
+.jfnav .left .span01{background: url("../images/cash.png") no-repeat left;padding-left: 8%;background-size: 25%;}
+.jfnav .right .span01{background: url("../images/present.png") no-repeat left;padding-left: 6%;background-size: 21%;color: #504f4f;}
+.jfnav .right{float: left;width:50%;}
+.jfmain01{background: #F2F2F2;padding-top: 1rem;min-height: 28rem;}
+.jfmain01 .remainjf{background: #fff;border-bottom:0.1rem solid #CCCCCC;font-size: 0.8rem;color: #9E9E9E;line-height: 4rem;padding-left: 3%;}
+.jfmain01 .remainjf span{color: #000;font-size: 1.2rem;}
+.jfmain01 .remainjf b{color: #FD4444;font-size: 1.2rem;}
+.jfmain01 .remainjf .more{float: right;}
+.jfmain01 .remainjf .more i{display: inline-block;height: 100%;vertical-align: middle;}
+.jfmain01 .remainjf .more img{width: 60%;vertical-align: middle;}
+.jfmain01 .remainjf .buy{float: right;width: 26%;margin: 5% 3%;border: 0.1rem solid;border-radius: 0.3rem;text-align: center;line-height: 2.3rem;color:#FD4444;font-size: 1rem;}
+
+/******************8_礼品积分*************************/
+.jfnav a{color: #000;}
+.jfnav .left .span02{background: url("../images/cash02.png") no-repeat left;padding-left: 8%;background-size: 25%;}
+.jfnav .right .span02{background: url("../images/present02.png") no-repeat left;padding-left: 6%;background-size: 21%;color: #504f4f;}
+.jfnav .right01{background: url("../images/borderb.fw.png") no-repeat bottom;background-size: 60%;color: #000;}
+.jfmain02{background: #F2F2F2;padding-top: 1rem;min-height: 28rem;}
+.jfmain02 .amend{font-size: 1rem;line-height:4rem;color:#FD4444;background: #fff;margin: 0 0 1rem;padding:0 3%;}
+.jfmain02 .amend a{float: right;background: url("../images/right.fw.png") no-repeat right;background-size: 25%;padding-right: 5%;}
+.jfmain02 .jfranking{background: #fff;}
+.jfmain02 .tit{padding:0 2%;}
+.jfmain02 .tit h3{border-top: 0.1rem solid #CCCCCC;font-size: 1rem;color: #747474;line-height:3rem;padding-left: 3%;}
+.jfmain02 .jfranking .rankmain_ul{padding: 0 2%;}
+.jfmain02 .jfranking .rankmain_ul li{border-top: 0.1rem solid #CCCCCC;color: #000;font-size: 1rem;height: 4.1rem;padding: 0 3%;}
+.jfmain02 .jfranking .rankmain_ul li a{color: #000;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_L{float: left;height: 100%;width: 70%;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_L .num{float: left;line-height:4rem;padding-right:2%;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_L .pic{float: left;padding-right:2%;height: 100%;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_L .pic img{width: 3rem;height: 3rem;border-radius: 50%;vertical-align: middle;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_L .pic span{display: inline-block;height: 100%;vertical-align: middle;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_L .text{float: left;padding-top: 0.6rem;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_L .text .addr{color: #747474;font-size: 0.8rem;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_R{float: right;width: 30%;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_R p{padding-top: 0.6rem;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_R .likenum{float: right;width: 30%;text-align: center;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_R .likepic{float: right;width: 30%;text-align: center;}
+.jfmain02 .jfranking .rankmain_ul .rankmain_R .likepic img{width: 60%}
+
+/******************9_已用积分*************************/
+.jfuse{background: #F2F2F2;min-height: 28rem;}
+.jfuse .jfusewrap{background: #fff;}
+.jfuse .jfuse_ul{padding: 0 2%;}
+.jfuse .jfuse_ul li{border-bottom:0.1rem solid #9e9c9c;padding: 3%;}
+.jfuse .jfuse_ul li p{font-size:1rem;color: #000;}
+.jfuse .jfuse_ul li p b{color: #F74647;font-weight: 100;float: right;}
+.jfuse .jfuse_ul li .time{font-size: 0.8rem;color:#737373;}
+
+/******************10_积分规则*************************/
+.jfruler_bagd{background: #F2F2F2;min-height: 28rem;}
+.jfruler_bagd .ruler_province{background: #fff;font-size: 1rem;line-height:3rem;color: #737373;padding: 0 3%;border-bottom:0.1rem solid #9e9c9c;}
+.jfruler_bagd .ruler_province a{float: right;text-align: right;}
+.jfruler_bagd .ruler_province a span{display: inline-block;height: 100%;vertical-align: middle;}
+.jfruler_bagd .ruler_province a img{width: 45%;vertical-align: middle;}
+.jfruler_main{background: #fff;padding-bottom:2rem;}
+.jfruler_main .jfruler_ul{padding: 0 2%;margin-top: 1rem;}
+.jfruler_main .jfruler_ul li .tit{border-bottom:0.1rem solid #9e9c9c;line-height: 3rem;color: #000;font-size: 1rem;padding: 0 2%;}
+.jfruler_main .jfruler_ul .jfrulercont p{color: #737373;font-size: 0.9rem;line-height: 1.8rem;padding: 0 2%;}
+.jfruler_main .jfruler_ul .jfrulercont span{float: right;color: #F74647;}
+.jfruler_main .jfrulerbtn{padding: 3%;border-top: 0.1rem solid #9e9c9c;border-bottom: 0.1rem solid #9e9c9c;}
+.jfruler_main .jfrulerbtn a{float: right;width: 25%;height: 2rem;line-height:1.8rem;text-align: center;color: #000;border: 0.1rem solid;border-radius: 0.3rem;}
+
+/******************11_积分规则修改*************************/
+.jfruler_main .jfruler_ul .jfrulercont02  p{color: #737373;font-size: 0.9rem;line-height: 1.8rem;padding:2%;}
+.jfruler_main .jfruler_ul .jfrulercont02 span{float: right;}
+.jfruler_main .jfruler_ul .jfrulercont02 span b{float: left;border: 0.1rem solid #737373;border-radius: 0.3rem;width: 7rem;text-align: center;margin-right:0.5rem;}
+.jfruler_main .jfruler_ul .jfrulercont02 span a{float: left;width: 30%;height: 100%;font-size: 1.2rem;color: #000;}
+.jfruler_main .jfruler_ul .jfrulercont02 span input{float: left;width: 40%;border-top: none;border-bottom:none;border-left: 0.1rem solid #9e9c9c;border-right: 0.1rem solid #9e9c9c;height: 1.8rem;text-align: center;color: #F74647;font-size: 1rem;}
+
+/******************13_GIS*************************/
+.gidbg{background: url("../images/gisbg.jpg") no-repeat top center;background-size: 100% 100%;height:36rem;position: relative;}
+.gischo{padding-top: 3%;}
+.input2{width: 24%;height: 2rem;float: left;background: #fff;border-radius: 0.2rem;line-height:2rem;margin-right:1%;color: #565656;font-size: 0.7rem;border: 0.1rem solid #FFA207;}
+.input2 input{border: none;outline: none;width: 100%;height: 100%;color: #656565;background: url(../images/down.png) no-repeat 95%;
+   font-size: 0.7rem;background-size: 20%;padding: 0 5%;}
+.input2 .sele{position: relative;height: 100%;}
+.input2 .sel-list{background: #fff;position: absolute; width: 103%; top: 28px; left: -1px;border: 0.1rem solid #FFA207;border-top: none;display: none;}
+.input2 .sel-list li{height: 1.5rem;line-height: 1.5rem;cursor: pointer;color: #656766;font-size: 0.7rem;padding-left: 0.5rem;}
+.input2 .sel-list li:hover{color: #fff;background: #008fe7;}
+.gischo .changeaddr{background: #C2C0C0;text-align: center;}
+.gischo .changeaddr a{color: #000;}
+.people_info{border: 0.1rem solid #9e9c9c;border-radius:0.5rem;width: 15rem;height: 18rem;background: #fff;position: absolute;left: 2rem;top:11rem;padding-top: 2%;}
+.people_info .remove a{float: right;padding-right:2%;}
+.people_info .remove a img{width: 60%;}
+.people_info .info01 .left{float: left;width: 30%;text-align: center;}
+.people_info .info01 .left img{width: 3rem;height: 3rem;border-radius: 50%;}
+.people_info .info01 .right{float: left;}
+.people_info .info01 .right .name{font-size: 1rem;}
+.people_info .info01 .right .name span{color: #787777;}
+.people_info .info01 .right .img{padding-top:0.5rem;}
+.people_info .info01 .right .img img{width: 20%;margin-right:1rem;}
+.people_info .info02{font-size: 0.8rem;line-height:2rem;text-align: center;}
+.people_info .info02 span{background: url("../images/up.fw.png") no-repeat left;padding-left: 10%;background-size: 8%;}
+.people_info .info03 table{width: 90%;border: 0.1rem solid #9e9c9c;border-collapse: collapse;margin:0 auto;}
+.people_info .info03 table td{border: 0.1rem solid #9e9c9c;text-align: center;font-size: 0.8rem;}
+.triangle_down{width:0;height:0;border-right:20px solid transparent;border-top:20px solid #9e9c9c;position: absolute;left: 50%;bottom: -20px;}
+
+/******************14_createGroup*************************/
+.publishweather02 .publshwrap .addxxy{background: url("../images/addxxy.fw.png") no-repeat left;background-size: 20%;}
+.publishweather02 .publshwrap .addgly{background: url("../images/addgly.fw.png") no-repeat left;background-size: 20%;}
+.writegroupname{background: #fff;height: 3rem;text-align: center;font-size: 1rem;color:#696969;padding: 0 2%;}
+.writegroupname input{border:none;border-bottom:0.1rem solid #b3aeae;height: 100%;width: 100%;text-align: left;font-size: 1rem;color: #696969;}
+
+/******************15_任务管理*************************/
+.taskmanage_gray{background: #F2F2F2;padding-bottom:5rem;}
+.taskmanage_gray .fabu a{background: #11AEE6;width: 95%;height: 2.2rem;line-height: 2.2rem;text-align: center;color: #fff;font-size: 1rem;display: block;margin:auto;border-radius: 0.3rem;}
+.taskmanage_gray .fabu{padding: 1rem 0 0;}
+.taskmanage_gray .taskcontmain{background: #fff;padding: 0 3%;margin-top: 1rem;}
+.taskmanage_gray .taskcontmain .tasktit{color: #000;font-size: 1rem;line-height:2.2rem;border-bottom:0.1rem solid #b3aeae;}
+.taskmanage_gray .taskcontmain .tasktit span{float: right;color: #999999;}
+.taskmanage_gray .taskcontmain .tasktit span b{color: #FD4444;}
+.taskmanage_gray .taskcontmain .taskcont{padding: 2% 0;}
+.taskmanage_gray .taskcontmain .taskcont .left{float: left;width: 25%;text-align: center;padding-right:1rem;font-size: 0.9rem;}
+.taskmanage_gray .taskcontmain .taskcont .left img{width: 90%;border-radius: 0.1rem;}
+.taskmanage_gray .taskcontmain .taskcont .right{float: left;font-size: 0.9rem;width: 75%;}
+.taskmanage_gray .taskcontmain .taskcont .right .fbtime{color:#999;padding-bottom:0.5rem;}
+.taskmanage_gray .taskcontmain .taskcont .right .cont span{color: #4F7DAF;}
+.taskmanage_gray .taskcontmain .taskname{padding-bottom:3%;}
+.taskmanage_gray .taskcontmain .taskname .name{display: block;padding-bottom:0.5rem;}
+.taskmanage_gray .taskcontmain .jifen{background: url("../images/jifen.fw.png") no-repeat left;padding-left: 30%;background-size: 33%;}
+.taskmanage_gray .taskcontmain .endtime{float: right;color: #999;padding-top: 1rem;}
+.taskmanage_gray .taskcontmain .taskstatue{line-height:3rem;border-bottom:0.1rem solid #b3aeae;border-top:0.1rem solid #b3aeae;}
+.taskmanage_gray .taskcontmain .taskstatue .ing{color:#FA5353;font-size: 0.9rem;}
+.taskmanage_gray .taskcontmain .taskstatue .ed{color:#999;font-size: 0.9rem;}
+.taskmanage_gray .taskcontmain .taskstatue a{float: right;height: 2rem;width: 27%;text-align: center;border: 0.1rem solid #333;line-height:1.8rem;
+   color: #333;font-size: 0.9rem;border-radius: 0.3rem;margin-top: 0.5rem;}
+.yuyin{line-height: 2rem;padding: 0.2rem 0;}
+.yuyin a{background: #E7E7E7;border-radius: 0.3rem;float: left;height: 2rem;}
+.yuyin a i{background: url("../images/yuyin.fw.png") no-repeat 1rem center;width: 3rem;height: 2rem;
+   float: left;background-size: 35%;}
+.yuyin span{color: #999;padding-left: 0.8rem;}
+
+
+/******************16_任务详情*************************/
+.taskdetail_gray{background: #F2F2F2;padding-bottom:5rem;}
+.taskdetail_gray .tit{background: #fff;height: 3rem;padding: 0 3%;line-height: 2.9rem;}
+.taskdetail_gray .tit p{border-bottom:0.1rem solid #b3aeae;font-size: 1rem;}
+.taskdetailcont{background: #fff;margin-top: 1rem;padding: 0 2%;}
+.taskdetailcont .time{border-bottom:0.1rem solid #b3aeae;font-size: 1rem;padding-left: 2%;line-height:2rem;}
+.taskdetailcont .continfo{padding-top: 2%;padding-bottom:2%;border-bottom:0.1rem solid #b3aeae;}
+.taskdetailcont .continfo .left{float: left;width: 25%;text-align: center;padding-right:1rem;}
+.taskdetailcont .continfo .left img{width: 90%;border-radius: 0.1rem;}
+.taskdetailcont .continfo .left span{color: #999;padding-top: 0.5rem;font-size: 0.9rem;}
+.taskdetailcont .continfo .right{float: left;width: 75%;font-size: 0.9rem;}
+.taskdetailcont .continfo .right .weathertype{color:#507DAF;}
+.taskdetailcont .continfo .right .jifen{float: right;line-height: 1.8rem;padding-top: 0.5rem;}
+.taskdetailcont .continfo .right .jifen span{float: left;border: 0.1rem solid #737373;border-radius: 0.3rem; width: 7rem;text-align: center;margin-right: 0.5rem;}
+.taskdetailcont .continfo .right .jifen span a{float: left;width: 30%;height: 100%;font-size: 1.2rem;color: #000;}
+.taskdetailcont .continfo .right .jifen span input{float: left;width: 40%;border-top: none;border-bottom: none;border-left: 0.1rem solid #9e9c9c;border-right: 0.1rem solid #9e9c9c; height: 1.8rem; text-align: center; color: #F74647; font-size: 1rem;}
+.taskdetailcont .continfo .right .jifen .award{border: 0.1rem solid #737373;border-radius: 0.3rem; width: 4rem;height: 1.8rem;color: #333;font-size: 0.9rem;text-align: center;line-height: 1.6rem;display: inline-block;margin-left: 0.5rem;}
+.taskdetailcont .continfo .right .pic{padding: 0.5rem 0 0;font-size: 0;-webkit-text-size-adjust:none;}
+.taskdetailcont .continfo .right .pic a{display: inline-block;text-align: center;width: 33%;}
+.taskdetailcont .continfo .right .pic img{width: 90%;}
+
+
+/******************17_添加管理员*************************/
+.addpeople_bg{background: #F2F2F2;padding-bottom:5rem;padding-top: 1rem;}
+.addpeople_bg .chosegroup{background: #fff;height: 3rem;border-bottom:0.1rem solid #b3aeae;font-size:1rem;padding: 0 2%;line-height:2.9rem;}
+.addpeople_bg .chosegroup a{color: #000;}
+.addpeople_bg .chosegroup span{float: right;color: #999;}
+.addpeople_bg .peoplelist{background: #fff;margin: 1rem 0;padding: 0.5rem;height:3rem; }
+.addpeople_bg .peoplelist .left{width: 63%;overflow: hidden;height: 2rem;float: left;font-size: 0;-webkit-text-size-adjust: none;}
+.addpeople_bg .peoplelist .left a{display: inline-block;}
+.addpeople_bg .peoplelist .left a img{width:2rem;height: 2rem;border-radius: 50%;margin-right:0.3rem;}
+.addpeople_bg .peoplelist .right{float: left;width: 37%;}
+.addpeople_bg .peoplelist .more{float: left;color: #000;line-height: 2rem;width: 30%;}
+.addpeople_bg .peoplelist .ok{float: left;border: 0.1rem solid #000;font-size: 0.8rem;line-height:1.8rem;text-align: center;width: 70%;border-radius: 0.3rem;color: #000;height: 2rem;}
+.addpeople_bg .peoplelistcont{background: #fff;padding: 0 2%;}
+.addpeople_bg .peoplelistcont li{padding: 0.5rem 0;height: 4rem;border-bottom: 0.1rem solid #b3aeae;line-height:3rem;}
+.addpeople_bg .peoplelistcont li a{float: left;height: 3rem;}
+.addpeople_bg .peoplelistcont li img{width: 3rem;height: 3rem;border-radius: 50%;}
+.addpeople_bg .peoplelistcont li span{padding-left: 0.5rem;}
+.addpeople_bg .peoplelistcont .yes{background: url("../images/yes.png") no-repeat left;padding-left: 10%;background-size:8%;}
+.addpeople_bg .peoplelistcont .no{background: url("../images/no.jpg") no-repeat left;padding-left: 10%;background-size:8%;}
+
+
+/******************18_添加信息员*************************/
+.input3{width: 24%;height: 2rem;float: left;background: #fff;border-radius: 0.2rem;line-height:2rem;margin-right:1%;color: #565656;font-size: 0.7rem;border: 0.1rem solid #E0E0E0;}
+.input3 input{border: none;outline: none;width: 100%;height: 100%;color: #656565;background: url(../images/down.png) no-repeat 95%;
+   font-size: 0.7rem;background-size: 20%;padding: 0 5%;display: block;}
+.input3 .sele{position: relative;height: 100%;}
+.input3 .sel-list{background: #fff;position: absolute; width: 102.6%; top: 28px; left: -1px;border: 0.1rem solid #E0E0E0;border-top: none;display: none;}
+.input3 .sel-list li{height: 1.5rem;line-height: 1.5rem;cursor: pointer;color: #656766;font-size: 0.7rem;padding-left: 0.5rem;}
+.input3 .sel-list li:hover{color: #fff;background: #008fe7;}
+.addpeoplechose .searchbtn{text-align: center;height:2rem;width: 90%;margin: 1rem auto;border: 0.1rem solid #E0E0E0;border-radius: 0.3rem;line-height: 1.8rem;background: #fff;font-size: 0.9rem;}
+.addpeoplechose .searchbtn span{background: url("../images/searchbtn.fw.png") no-repeat left;padding-left: 8%;background-size: 32%;}
+
+/******************19_受灾信息审查*************************/
+.message_bg{background: #F2F2F2;padding-bottom:5rem;}
+.messagenav{height: 3rem;width: 100%;border-bottom:0.1rem solid #E0E0E0;background: #fff;margin-bottom:1rem;}
+.messagenav .left{float: left;width: 50%;height: 2.8rem;margin: 0.1rem 0;border-right:0.1rem solid #E0E0E0;text-align: center;line-height:2.8rem;}
+.messagenav .cur{background: url("../images/borderb.fw.png") no-repeat bottom;background-size: 55%;}
+.messagenav .right{text-align: center;color:#737373;line-height:2.8rem;}
+.checkmessagewrap{background: #fff;padding:0 2%;}
+.checkmessagewrap .check{padding:2% 0;border-bottom: 0.1rem solid #E0E0E0;}
+.checkmessagewrap .top{width: 100%;padding-left:10%;}
+.checkmessagewrap .top .top_L{width: 20%;float: left;}
+.checkmessagewrap .top .top_L img{width: 90%;}
+.checkmessagewrap .top .top_R{float:left;width: 80%;}
+.checkmessagewrap .top .top_R .name{color: #556F8E;font-size: 1rem;padding:0.3rem 0 0;}
+.checkmessagewrap .top .top_R .tiad{height: 2rem;line-height:2rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.checkmessagewrap .top .top_R .time{color: #656565;font-size: 0.8rem;padding-right:0.2rem;width:48%;float: left;}
+.checkmessagewrap .top .top_R .addr{float:left;color: #999;font-size: 0.8rem;padding-left: 7%;background: url("../images/addr.fw.png") no-repeat left;background-size: 13%;width: 52%;}
+.checkmessagewrap .cont{margin-top: 0.3rem;}
+.checkmessagewrap .cont .cont_L{float: left;width: 10%;text-align: center;height: 100%;}
+.checkmessagewrap .cont .cont_L span{display: inline-block;height:100%;vertical-align: middle;}
+.checkmessagewrap .cont .cont_L img{width: 60%;vertical-align: middle;}
+.checkmessagewrap .cont .cont_R{float: left;width: 90%;}
+.checkmessagewrap .cont .cont_R .weatherintro{background: #F7F7F7;font-size: 0.9rem;padding: 0.3rem 0;}
+.checkmessagewrap .cont .cont_R .weatherintro span{color: #648CB8;}
+.checkmessagewrap .cont .cont_R .pic{font-size: 0;-webkit-text-size-adjust: none;margin-top: 0.3rem;}
+.checkmessagewrap .cont .cont_R .pic a{display: inline-block;width: 33%;text-align: center;}
+.checkmessagewrap .cont .cont_R .pic a img{width: 90%;}
+.checkmessagewrap .btns{height: 3rem;padding:0 2%;}
+.checkmessagewrap .btns span{background: url("../images/no.jpg") no-repeat left;padding-left: 7%;background-size: 33%;color: #333;font-size: 1rem;line-height:3rem;}
+.checkmessagewrap .btns a{float: right;height: 2rem;border: 0.1rem solid #999;width: 4rem;text-align: center;line-height: 2rem;margin-left: 0.8rem;color: #333;font-size: 1rem;border-radius: 0.3rem;margin-top: 0.5rem;}

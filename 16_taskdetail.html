@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务详情</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script>
+        $(document).ready(function(){
+//加的效果
+            $(".add").click(function(){
+                var n=$(this).prev().val();
+                var num=parseInt(n)+1;
+                $(this).prev().val(num);
+            });
+//减的效果
+            $(".jian").click(function(){
+                var n=$(this).next().val();
+                var num=parseInt(n)-1;
+                if(num==-1){ return}
+                $(this).next().val(num);
+            });
+        })
+    </script>
+</head>
+<body>
+    <!--通用头部-->
+    <div class="hearder">
+        <a href="#"><span></span><img src="images/back.png"></a>
+       任务详情
+    </div>
+    <!--任务详情-->
+    <div class="taskdetail_gray">
+        <div class="tit"><p>共20人</p></div>
+        <div class="taskdetailcont">
+            <div class="time">2015-10-27 17:30</div>
+            <div class="continfo clearfl">
+                <div class="left">
+                    <img src="images/taskpic01.jpg">
+                    <span>马小轩</span>
+                </div>
+                <div class="right">
+                    <p><span class="weathertype">#低温冷害#</span>今天天气真冷，冻死宝宝了。大家一定要裹得严严实实的，不要着凉生病了。今天天气真冷，冻死宝宝了。大家一定要裹得严严实实的，不要着凉生病了。</p>
+                    <p class="jifen"><span><a class="jian">-</a><input type="text" value="10"/><a class="add">+</a></span>积分<a href="#" class="award">奖励</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="taskdetailcont">
+            <div class="time">2015-10-27 17:30</div>
+            <div class="continfo clearfl">
+                <div class="left">
+                    <img src="images/taskpic02.jpg">
+                    <span>白小浅</span>
+                </div>
+                <div class="right">
+                    <p><span class="weathertype">#寒潮#</span>寒潮来袭，朋友们注意保暖，出门穿衣要防风防寒，尽量不要较长时间在户外活动。</p>
+                    <p class="pic">
+                        <a href="#"><img src="images/contpic01.jpg"></a>
+                        <a href="#"><img src="images/contpic02.jpg"></a>
+                        <a href="#"><img src="images/contpic03.jpg"></a>
+                    </p>
+                    <p class="jifen"><span><a class="jian">-</a><input type="text" value="10"/><a class="add">+</a></span>积分<a href="#" class="award">奖励</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="taskdetailcont">
+            <div class="time">2015-10-27 17:30</div>
+            <div class="continfo clearfl">
+                <div class="left">
+                    <img src="images/taskpic03.jpg">
+                    <span>崔小征</span>
+                </div>
+                <div class="right">
+                    <p><span class="weathertype">#寒潮#</span>寒潮来袭，朋友们注意保暖，出门穿衣要防风防寒，尽量不要较长时间在户外活动。</p>
+                    <p class="yuyin"><a href="#" style="width: 75%;"><i></i></a><span>15”</span></p>
+                    <p class="jifen"><span><a class="jian">-</a><input type="text" value="10"/><a class="add">+</a></span>积分<a href="#" class="award">奖励</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布公告</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mui.picker.min.css">
+
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+
+
+</head>
+<body>
+    <!--通用头部-->
+    <div class="hearder">
+        <a href="#"><span></span><img src="images/back.png"></a>
+       发布通知
+    </div>
+    <!--发布通知-->
+    <div class="publishweather01">
+        <div class="textarea">
+          <p class="tip">输入描述的内容</p>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="publishweather02">
+        <div class="publshwrap">
+            <ul>
+                <li>
+                    <div class="padl">
+                    <span class="icon03">结束时间</span>
+                    <a class="btns1" id="result1">2015-10-26 15:23 </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="padl">
+                    <span class="icon02">群发地区</span>
+                    <a href="#">添加群发地区</a>
+                    </div>
+                    <ul class="secul">
+
+                            <li> <div class="padl"><p class="remove"><span id="vamiddle"></span><img src="images/remove.png"> </p> <a href="#">河北省张家口市宣化县王家湾乡</a></div></li>
+                            <div class="clear"></div>
+
+                    </ul>
+                </li>
+                <li>
+                    <div class="padl">
+                    <span class="icon05">群发群组</span>
+                    <a href="#">添加群发群组</a>
+                   </div>
+                    <ul  class="secul">
+                        <li><div class="padl"><p class="remove"><span id="vamiddle"></span><img src="images/remove.png"> </p> <a href="#">国家级管理员群组</a></div></li>
+                        <div class="clear"></div>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="sendW"><a href="#">发布</a></div>
+        <div class="check"><a href="#">查看已发布信息</a></div>
+    </div>
+    <!--<div class="mui-backdrop" style="opacity:1"></div>-->
+
+<!--js部分-->
+    <script src="js/mui.min.js"></script>
+    <script src="js/mui.picker.min.js"></script>
+    <script>
+        (function($) {
+            $.init();
+            var result1 = $('#result1')[0];
+            var result2 = $('#result2')[0];
+            var btns1 = $('.btns1');
+            var btns2 = $('.btns2');
+            /*选择日期函数开始执行*/
+            btns1.each(function(i, btn) {
+                btn.addEventListener('tap', function() {
+                    var optionsJson = this.getAttribute('data-options') || '{}';
+                    var options = JSON.parse(optionsJson);
+                    var id = this.getAttribute('id');
+                    var picker = new $.DtPicker(options);
+                    picker.show(function(rs) {
+                        /*
+                         * rs.value 拼合后的 value
+                         * rs.text 拼合后的 text
+                         * rs.y 年，可以通过 rs.y.vaue 和 rs.y.text 获取值和文本
+                         * rs.m 月，用法同年
+                         * rs.d 日，用法同年
+                         * rs.h 时，用法同年
+                         * rs.i 分（minutes 的第二个字母），用法同年
+                         */
+                        result1.innerText =rs.y.value+"-"+rs.m.text+'-'+rs.d.text+" "+rs.h.value+":"+rs.i.value;
+                        picker.dispose();
+                    });
+                }, false);
+            });
+            /*选择时间函数开始执行*/
+            btns2.each(function(i, btn) {
+                btn.addEventListener('tap', function() {
+                    var optionsJson = this.getAttribute('data-options') || '{}';
+                    var options = JSON.parse(optionsJson);
+                    var id = this.getAttribute('id');
+                    var picker = new $.DtPicker(options);
+                    picker.show(function(rs) {
+                        result2.innerText = rs.h.text+':'+rs.i.text;
+                        picker.dispose();
+                    });
+                }, false);
+            });
+        })
+        (mui);
+    </script>
+</body>
+</html>

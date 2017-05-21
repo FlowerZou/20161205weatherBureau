@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GIS地图统计</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/select.js"></script>
+    <script>
+        window.onload=function () {
+            $("#remove").click(function(){
+                $(".people_info").css("display","none");
+            })
+        }
+    </script>
+</head>
+<body>
+    <!--通用头部-->
+    <div class="hearder">
+        <a href="#"><span></span><img src="images/back.png"></a>
+        GIS地图统计
+    </div>
+    <!--GIS地图统计-->
+    <div class="gidbg">
+        <div class="gischo">
+          <div class="addrcho">
+
+           <div class="input2">
+               <div class="sel-boxone sele" id="Tmcselect01">
+                   <input for="label" type="text" readonly value="河北省">
+                   <ul class="sel-list">
+                       <li data="">广东省</li>
+                       <li data="3">福建省</li>
+                       <li data="4">辅材</li>
+                       <li data="5">软装</li>
+                   </ul>
+               </div>
+           </div>
+           <div class="input2">
+               <div class="sel-boxone sele" id="Tmcselect02">
+                   <input for="label" type="text" readonly value="张家口市">
+                   <ul class="sel-list">
+                       <li data="">效果图</li>
+                       <li data="3">主材</li>
+                       <li data="4">辅材</li>
+                       <li data="5">软装</li>
+                   </ul>
+               </div>
+           </div>
+           <div class="input2">
+               <div class="sel-boxone sele" id="Tmcselect03">
+                   <input for="label" type="text" readonly value="宣化区">
+                   <ul class="sel-list">
+                       <li data="">效果图</li>
+                       <li data="3">主材</li>
+                       <li data="4">辅材</li>
+                       <li data="5">软装</li>
+                   </ul>
+               </div>
+           </div>
+           <div class="input1 changeaddr">
+               <a href="#">切换地址</a>
+
+           </div>
+           <div class="clear"></div>
+
+       </div>
+        </div>
+        <div class="people_info">
+            <p class="remove clearfl"><a href="#" id="remove"><img src="images/gis_renmove.fw.png"></a></p>
+            <div class="info01 clearfl">
+                <div class="left"><img src="images/gispic01.jpg"></div>
+                <div class="right">
+                    <p class="name">李敏<span>（信息员）</span></p>
+                    <p class="img"><a href="#"><img src="images/email.png"></a><img src="images/phone.png"></a></p>
+                </div>
+            </div>
+            <div class="info02"><span>最近在线时间:2015-09-03 18:22</span></div>
+            <div class="info03">
+                <table>
+                    <tr>
+                        <td width="40%">编号</td>
+                        <td width="60%">11010100100549212</td>
+                    </tr>
+                    <tr>
+                        <td>工作地址</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>通讯地址</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>性别</td>
+                        <td>女</td>
+                    </tr>
+                    <tr>
+                        <td>年龄</td>
+                        <td>25岁</td>
+                    </tr>
+                    <tr>
+                        <td>学历</td>
+                        <td>硕士及以上</td>
+                    </tr>
+                    <tr>
+                        <td>聘任时间</td>
+                        <td>2015-08-31 14:41:15</td>
+                    </tr>
+                    <tr>
+                        <td>培训情况</td>
+                        <td>已培训1次</td>
+                    </tr>
+                    <tr>
+                        <td>抽查情况</td>
+                        <td>未抽查</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="triangle_down"></div>
+        </div>
+    </div>
+    <script>
+        $('#Tmcselect01').input();
+        $('#Tmcselect02').input();
+        $('#Tmcselect03').input();
+    </script>
+</body>
+</html>

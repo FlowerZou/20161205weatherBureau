@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实景天气</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/select.js"></script>
+</head>
+<body>
+    <!--通用头部-->
+    <div class="hearder">
+        <a href="#"><span></span><img src="images/back.png"></a>
+        实景天气
+    </div>
+    <div class="gray">
+        <div class="sendW"><a href="#">发布</a></div>
+        <div class="addrcho">
+
+            <div class="input1">
+                <div class="sel-boxone sele" id="Tmcselect01">
+                    <input for="label" type="text" readonly value="河北省">
+                    <ul class="sel-list">
+                        <li data="">广东省</li>
+                        <li data="3">福建省</li>
+                        <li data="4">辅材</li>
+                        <li data="5">软装</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input1">
+                <div class="sel-boxone sele" id="Tmcselect02">
+                    <input for="label" type="text" readonly value="张家口市">
+                    <ul class="sel-list">
+                        <li data="">效果图</li>
+                        <li data="3">主材</li>
+                        <li data="4">辅材</li>
+                        <li data="5">软装</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input1">
+                <div class="sel-boxone sele" id="Tmcselect03">
+                    <input for="label" type="text" readonly value="宣化区">
+                    <ul class="sel-list">
+                        <li data="">效果图</li>
+                        <li data="3">主材</li>
+                        <li data="4">辅材</li>
+                        <li data="5">软装</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input1">
+                <a href="#" class="search"><span></span><img src="images/search.fw.png"></a>
+                搜索
+            </div>
+            <div class="clear"></div>
+
+        </div>
+    </div>
+    <!--动态-->
+    <div class="weathercont">
+        <ul>
+            <li>
+                <div class="cont_L"><a href="#"><img src="images/pic01.jpg"></a></div>
+                <div class="cont_R">
+                    <div class="info">
+                        <h3>白小浅</h3>
+                        <p><span class="time">2015-11-1 10:57</span> <a href="#" class="addr">张家口市桥东区</a></p>
+                    </div>
+                    <div class="intro">
+                        <b>#低温冷害#</b>
+                        今天天气真冷，冻死宝宝了。大家一定要裹得严严实实的，不要着凉生病了。
+                    </div>
+                    <div class="operate"><span class="comment">评论</span> <span class="zan">赞</span> <span class="show">推送</span></div>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <div class="cont_L"><a href="#"><img src="images/pic02.jpg"></a></div>
+                <div class="cont_R">
+                    <div class="info">
+                        <h3>马小轩</h3>
+                        <p><span class="time">2015-11-1 10:57</span> <a href="#" class="addr">河子西乡</a></p>
+                    </div>
+                    <div class="intro">
+                        <b>#寒潮#</b>
+                        寒潮来袭，朋友们注意保暖，出门穿衣要防风防寒，尽量不要较长时间在户外活动。
+                    </div>
+                    <div class="contpic">
+                        <a href="#"><img src="images/contpic01.jpg"></a>
+                        <a href="#"><img src="images/contpic02.jpg"></a>
+                        <a href="#"><img src="images/contpic03.jpg"></a>
+                    </div>
+                    <div class="operate"><span class="comment">评论</span> <span class="zan">赞</span> <span class="show">推送</span></div>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <div class="cont_L"><a href="#"><img src="images/pic03.jpg"></a></div>
+                <div class="cont_R">
+                    <div class="info">
+                        <h3>李小琦</h3>
+                        <p><span class="time">2015-11-1 10:57</span> <a href="#" class="addr">河子西乡</a></p>
+                    </div>
+                    <div class="intro">
+                        <b>#大雪#</b>
+                        下雪啦，给你们没下雪的地方录了个视频，快来看！
+                    </div>
+                    <div class="contpic">
+                        <a href="#"><img src="images/contpic04.jpg"></a>
+                    </div>
+                    <div class="operate"><span class="comment">评论</span> <span class="zan">赞</span> <span class="show">推送</span></div>
+                </div>
+                <div class="clear"></div>
+            </li>
+        </ul>
+    </div>
+
+<script>
+    $('#Tmcselect01').input();
+    $('#Tmcselect02').input();
+    $('#Tmcselect03').input();
+</script>
+</body>
+</html>

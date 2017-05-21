@@ -1,0 +1,23 @@
+/* 深圳市静江网络科技有限公司 */
+*{margin:0; padding:0;}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust: 100%;}
+body{position:relative; font-family: "Microsoft YaHei", Helvetica, sans-serif !important; font-weight: normal; color:#000; background:#fff; margin:0; padding:0; width: 100%; min-width: 320px; max-width: 1080px;}
+input[type=text],input[type=button],input[type=submit],input[type=file],button {-webkit-appearance:none; outline: none;}
+input[type=button],input[type=submit],input[type=file],button {cursor: pointer;}
+ul,li,h1,h2,h3,h4,h5,h6,p{list-style-type:none; margin:0; padding:0;}
+img{border:none;}
+a{text-decoration:none; color:#999; margin:0; padding:0;}
+a:hover{text-decoration:none;}
+.clear{clear:both;}
+*,*:before,*:after {box-sizing:border-box;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfl:after{content: "";display: block;clear: both;visibility:hidden;height:0;}
+.clearfl{zoom: 1;}
+/* 初始化样式结束 */
+
+/**************通用头部*****************/
+.hearder{width: 100%;height: 3rem;background: #000;color: #fff;font-size: 1.2rem;line-height: 3rem;text-align: center;position: relative;}
+.hearder a{left: 2%;position: absolute;}
+.hearder a span{display: inline-block;height: 100%;vertical-align: middle;}
+.hearder a img{width: 40%;vertical-align: middle;}
